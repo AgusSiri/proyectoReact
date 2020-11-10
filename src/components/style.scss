@@ -9,10 +9,14 @@
  margin-bottom: 10%;
 }
 .contador {
+    background-color: rgb(241, 239, 239);
     margin-top: 10%;
-    margin-left: 46%;
+    margin-left: 43%;
     position: relative;
-    width: 100px;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5%;
     .count__input{
         border-radius: 5%;
         width: 100%;
@@ -20,13 +24,13 @@
         outline: none;
         text-align: center;
         padding: 0%;
-        background-color: transparent;
+        background-color: white;
     }
     .count__button{
         background-color: transparent;
         border: 0;
         font-size: 22px;
-        color: blue;
+        color: rgb(61, 152, 255);
         position: absolute;
         top: 0;
         z-index: 2;
@@ -34,11 +38,11 @@
         
     }
     .count__button--add {
-        right: -1px;
+        right: 5px;
         top: 60%;
     }
     .count__button--dec {
-        left: 0;
+        left: 10px;
         top: 58%;
     }
 }
