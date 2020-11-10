@@ -13,7 +13,7 @@ function App() {
 
         <Home greeting="BIENVENIDOS"/>
 
-        <Contador/>
+        <Contador init="0" min="0" max="20" onAdd={() => console.log("onAdd")} />
 
     </>
 
