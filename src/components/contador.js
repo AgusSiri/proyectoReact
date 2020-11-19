@@ -8,7 +8,7 @@ const Contador = props => {
 
     return ( 
         <div className="contador">
-        <p className='producto'>Camisa de Jean</p>
+        <p className='producto'>Cantidad</p>
         <button
           className="count__button count__button--dec"
           onClick={() => {
